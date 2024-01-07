@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(rgb(121, 159, 248) , rgba(71, 83, 254, 0.834));
+
+}
+.title{
+    background-color:rgba(15, 5, 8, 0.673);
+    position: relative;
+    margin-bottom: 30px;
+    color: #e8a618;
+    align-self: first baseline;
+    text-align:center;
+    border-radius: 6px;
+}
+.calculator {
+    text-align: center;
+    width: 250px;
+    border: 10px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #000000;
+    box-shadow: 100px 100px 100px rgba(10, 189, 220, 0.1);
+}
+
+.display {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: right;
+    height: 50px;
+    margin: 5px;
+    border:3px solid rgb(238, 159, 0);
+}
+
+.input{
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+}
+.output {
+    font-size: 18px;
+    color: #333;
+    text-align: right;
+}
+
+.addition {
+    background-color: orange;
+    border-radius: 100px;
+
+}
+.substract{
+    background-color: orange;
+    border-radius: 100px;
+}
+.modulo{
+    background-color: orange;
+    border-radius: 100px;
+}
+.multiply{
+    background-color: orange;
+    border-radius: 100px;
+}
+.division{
+    background-color: orange;
+    border-radius: 100px;
+}
+.delete{
+    background-color: red;
+    border-radius: 100px;
+}
+.bropen{
+    background-color: orange;
+    border-radius: 100px;
+}
+.brclose{
+    background-color: orange;
+    border-radius: 100px;
+}
+.clear{
+    background-color: rgb(255, 2, 2);
+    border-radius: 100px;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight:bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    transition: background-color 0.3s;
+    border-radius: 100px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.equals {
+    grid-column: span 3;
+    background-color: #1b8734;
+    color: #fff;
+}
+

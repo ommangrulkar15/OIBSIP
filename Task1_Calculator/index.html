@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div class="cal">
+    <div class="title">
+      <h1>Calculator</h1>
+    </div>
+    <br>
+    <div class="calculator">
+      <div class="display">
+        <div id="input" class="input"></div>
+        <div id="output" class="output"></div>
+      </div>
+      <div class="buttons">
+        <button onclick="remove()"class="clear">C</button>
+        <button onclick="display('(')"class="bropen">(</button>
+        <button onclick="display(')')"class="brclose">)</button>
+        <button onclick="display('%')"class="modulo">%</button>
+        <button onclick="display('7')">7</button>
+        <button onclick="display('8')">8</button>
+        <button onclick="display('9')">9</button>
+        <button onclick="display('/')"class="division">/</button>
+        <button onclick="display('4')">4</button>
+        <button onclick="display('5')">5</button>
+        <button onclick="display('6')">6</button>
+        <button onclick="display('*')"class="multiply">x</button>
+        <button onclick="display('1')">1</button>
+        <button onclick="display('2')">2</button>
+        <button onclick="display('3')">3</button>
+        <button onclick="display('-')" class="substract
+        ">-</button>
+        <button onclick="display('.')">.</button>
+        <button onclick="display('0')">0</button>
+        <button onclick="display('Math.sqrt(')">√</button>
+        <button onclick="display('+')" class="addition">+</button>
+        <button class="equals" onclick="calculate()">=</button>
+        <button onclick="correct()"class="delete">Delete</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
